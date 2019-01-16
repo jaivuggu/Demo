@@ -12,6 +12,8 @@ public class DemoTest {
 	
 	public void validateLaunch() {
 		
+		// comments to check on cloud
+		
 		String env= "winChromepath";
 		String winChromepath= "C:/Users/Jai/eclipse-workspace/demoframework/src/test/java/resources/chromedriver.exe";
 		String linuxChromepath="C:/Users/Jai/eclipse-workspace/demoframework/src/test/java/resources/chromedriver";
@@ -30,6 +32,7 @@ public class DemoTest {
 		driver.navigate().to("https://www.ap7am.com/telugu-videos-1-all-videos.html");
 		
 		System.out.println("Chrome Browser launched");
+		System.out.println("This is to check the cloud");
 	
 	}
 	
