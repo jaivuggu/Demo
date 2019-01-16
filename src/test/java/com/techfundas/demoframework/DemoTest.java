@@ -15,8 +15,8 @@ public class DemoTest {
 		// comments to check on cloud
 		
 		String env= "winChromepath";
-		String winChromepath= "C:/Users/Jai/eclipse-workspace/demoframework/src/test/java/resources/chromedriver.exe";
-		String linuxChromepath="C:/Users/Jai/eclipse-workspace/demoframework/src/test/java/resources/chromedriver";
+		String winChromepath= "C:/Program Files (x86)/Jenkins/workspace/AutomationDemo/src/test/java/resources/chromedriver.exe";
+		String linuxChromepath="C:/Program Files (x86)/Jenkins/workspace/AutomationDemo/src/test/java/resources/chromedriver";
 		
 		if(env.equals("winChromepath")) {
 		System.setProperty("webdriver.chrome.driver", winChromepath);
